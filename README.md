@@ -13,9 +13,6 @@ webscraping no Gazeta digital com python
     requisicao = requests.get(url, headers=headers)
     print(requisicao)
 
-## Mostrando o texto da busca
-    print(requisicao.text)
-
 ## Mostrando as notícias
 
     def extrair_noticias(url):
